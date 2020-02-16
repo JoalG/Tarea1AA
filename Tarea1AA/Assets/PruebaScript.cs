@@ -8,6 +8,10 @@ public class PruebaScript : MonoBehaviour
     void Start()
     {
         Debug.Log ("I'm about to hit the ground!");
+        int[] arr2 = {800,11,50,771,649,770,240, 9};
+
+        Debug.Log (BubbleSort(arr2));
+        
     }
 
     // Update is called once per frame
